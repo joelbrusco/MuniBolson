@@ -8,7 +8,7 @@
 </head>
 <body>
      <nav class="navbar">
-    <div class="logo">Mi Sitio</div>
+    <div class="logo">Infraccicones</div>
     <div class="menu-toggle" id="menu-toggle">
       <span></span>
       <span></span>
@@ -16,7 +16,7 @@
     </div>
     <div class="menu" id="menu">
       <a href="#">Inicio</a>
-      <a href="#">Servicios</a>
+      <a href="#">Infracciones</a>
       <a href="#">Acerca</a>
       <a href="#">Contacto</a>
     </div>
