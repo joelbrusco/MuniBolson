@@ -18,7 +18,8 @@
 
   <div class="inicio">
     <img src="multimedia/municipalidad-de-el-bolson-1024x575.webp">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni minus omnis quibusdam. Accusamus quis totam unde atque eius, quod numquam. Vero, optio dolorem repellat voluptatem et alias iste laboriosam?</p>
+    <p>Esta herramienta permite a los inspectores identificar rápidamente ordenanzas e infracciones de tránsito, facilitando la consulta de artículos y
+       agilizando su trabajo en campo.</p>
   </div>
 
 
