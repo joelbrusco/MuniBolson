@@ -11,7 +11,7 @@
 <body>
   <?php include 'navbar.php' ?>
 
-  <h1 class="titulo">Municipalidad El Bolsón</h1>
+  <h1 class="titulo"> Sistema de Gestión de Tránsito Municipal El Bolsón</h1>
 
   <div class="separador"></div>
 
