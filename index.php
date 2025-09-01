@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-     <title>Navbar Responsive</title>
-     <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Navbar Responsive</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     <nav class="navbar">
-    <div class="logo">Infraccicones</div>
-    <div class="menu-toggle" id="menu-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="menu" id="menu">
-      <a href="#">Inicio</a>
-      <a href="#">Infracciones</a>
-      <a href="#">Acerca</a>
-      <a href="#">Contacto</a>
-    </div>
-  </nav>
+  <?php include 'navbar.php' ?>
 
-  <script>
-    const toggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('menu');
+  <h1 class="titulo">Municipalidad El Bolsón</h1>
 
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('active');
-    });
-  </script>
+  <div class="separador"></div>
+
+
+  <div class="inicio">
+    <img src="multimedia/municipalidad-de-el-bolson-1024x575.webp">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni minus omnis quibusdam. Accusamus quis totam unde atque eius, quod numquam. Vero, optio dolorem repellat voluptatem et alias iste laboriosam?</p>
+  </div>
+
+
 </body>
+
 </html>
