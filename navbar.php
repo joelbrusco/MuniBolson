@@ -1,15 +1,15 @@
 <nav class="navbar">
-    <div class="logo">Infraccicones</div>
+    <div class="logo">SIGTM–Bolsón</div>
     <div class="menu-toggle" id="menu-toggle">
         <span></span>
         <span></span>
         <span></span>
     </div>
     <div class="menu" id="menu">
-        <a href="#">Inicio</a>
-        <a href="#">Infracciones</a>
-        <a href="#">Acerca</a>
-        <a href="#">Contacto</a>
+        <a href="index.php">Inicio</a>
+        <a href="infracciones.php">Infracciones</a>
+        <a href="acerca.php">Acerca</a>
+        <a href="contacto.php">Contacto</a>
     </div>
 </nav>
 

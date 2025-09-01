@@ -7,6 +7,7 @@
          <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <?php include 'navbar.php' ?>
     <h>¿De que se trata la pagina?</h>
     <p>Se trata de indentificar las odernas e infracciones de transito para el dicho inspector 
         a la hora de agilizar la busqueda de dicha ordenanza o articulos de transito</p>

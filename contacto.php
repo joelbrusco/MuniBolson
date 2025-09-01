@@ -7,6 +7,7 @@
          <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <?php include 'navbar.php' ?>
     <h1>Aca es donde podes contactarnos</h1>
     <p>Teléfono: 0294 449-2204</p>
     <p>Dirección: Gral. Roca 689, El Bolsón, Río Negro</p>
