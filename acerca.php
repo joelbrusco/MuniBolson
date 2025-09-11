@@ -9,7 +9,9 @@
 </head>
 
 <body>
+    <!-- barra navegacion -->
     <?php include 'navbar.php' ?>
+    
     <h1 class="titulo"> ¿De que se trata la pagina?</h1>
     <div class="separador"></div>
     <div class="acerca">

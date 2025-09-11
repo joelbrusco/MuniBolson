@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- barra navegacion -->
     <?php include 'navbar.php' ?>
     <div class="infracciones">
         <h1>Infracciones</h1>
