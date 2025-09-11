@@ -13,9 +13,7 @@
     </div>
 </nav>
 
-
-
-
+<!-- Javascript - No Tocar -->
 <script>
     const toggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
