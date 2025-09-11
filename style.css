@@ -145,6 +145,9 @@ body {
   color: white;
 }
 
+.footer1 {
+  display: grid;
+}
 
 /* ACA EMPIEZAN ESTILOS DE CELULAR */
 @media (max-width: 768px) {
@@ -167,4 +170,11 @@ body {
   .menu-toggle {
     display: flex;
   }
+
+  /* footer */
+  .footer {
+    grid-template-columns: 1fr;
+    padding-bottom: 10%;
+  }
+
 }

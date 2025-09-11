@@ -1,8 +1,16 @@
 <div class="footer">
-    <h3>alumno</h3>
-    <h3>año</h3>
-    <h3>contacto</h3>
-    <p>Joel</p>
-    <p>2025</p>
-    <p>correo@gmail.com</p>
+    <div class="footer1">
+        <h3>alumno</h3>
+        <p>Joel</p>
+    </div>
+
+    <div class="footer2">
+        <h3>año</h3>
+        <p>2025</p>
+    </div>
+
+    <div class="footer3">
+        <h3>contacto</h3>
+        <p>correo@gmail.com</p>
+    </div>
 </div>

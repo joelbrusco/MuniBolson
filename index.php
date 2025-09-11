@@ -20,6 +20,7 @@
       agilizando su trabajo en campo.</p>
   </div>
 
+  <!-- footer / pie de pagina -->
   <?php include 'footer.php' ?>
 
 </body>
