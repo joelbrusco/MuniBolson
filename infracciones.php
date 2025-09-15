@@ -58,6 +58,12 @@
             <option value="48w" <?= ($_GET['articulo'] ?? '')=='48w' ? 'selected' : '' ?>>Art. 48 inc. w - Maniobras peligrosas</option>
             <option value="48x" <?= ($_GET['articulo'] ?? '')=='48x' ? 'selected' : '' ?>>Art. 48 inc. x - No mantener distancia de seguridad</option>
             <option value="48y" <?= ($_GET['articulo'] ?? '')=='48y' ? 'selected' : '' ?>>Art. 48 inc. y - Conducir con frenos o neumáticos defectuosos</option>
+            <option value="49o" <?= ($_GET['articulo'] ?? '')=='49o' ? 'selected' : '' ?>>Art. 49 inc. o - Zonas de carga y descarga</option>
+    <option value="49p" <?= ($_GET['articulo'] ?? '')=='49p' ? 'selected' : '' ?>>Art. 49 inc. p - Zonas reservadas para transporte público/taxis</option>
+    <option value="49q" <?= ($_GET['articulo'] ?? '')=='49q' ? 'selected' : '' ?>>Art. 49 inc. q - Zonas para vehículos eléctricos o bicicletas públicas</option>
+    <option value="49r" <?= ($_GET['articulo'] ?? '')=='49r' ? 'selected' : '' ?>>Art. 49 inc. r - Calles angostas que impiden paso de emergencias</option>
+    <option value="49s" <?= ($_GET['articulo'] ?? '')=='49s' ? 'selected' : '' ?>>Art. 49 inc. s - Áreas peatonales o plazas públicas</option>
+    <option value="49t" <?= ($_GET['articulo'] ?? '')=='49t' ? 'selected' : '' ?>>Art. 49 inc. t - Zonas de obras o construcción</option>
         </optgroup>
 
     </select>
@@ -212,6 +218,57 @@
             echo "<h2>Art. 49 inc. h</h2>
                   <p>No detenerse ni estacionar en lugares peligrosos.</p>";
             break;
+            // -------------------------
+// ARTÍCULO 49 - PROHIBICIONES DE ESTACIONAMIENTO Y DETENCIÓN
+// -------------------------
+case "49i":
+    echo "<h2>Art. 49 inc. i</h2>
+          <p>No estacionar frente a hidrantes, bocas de incendio o accesos de bomberos.</p>";
+    break;
+case "49j":
+    echo "<h2>Art. 49 inc. j</h2>
+          <p>No estacionar sobre pasos peatonales, ciclovías o carriles exclusivos de transporte público.</p>";
+    break;
+case "49k":
+    echo "<h2>Art. 49 inc. k</h2>
+          <p>No estacionar en doble fila, bloqueando el tránsito de otros vehículos.</p>";
+    break;
+case "49l":
+    echo "<h2>Art. 49 inc. l</h2>
+          <p>No estacionar en paradas de transporte público, excepto cuando esté permitido.</p>";
+    break;
+case "49m":
+    echo "<h2>Art. 49 inc. m</h2>
+          <p>No estacionar en lugares señalizados con restricción horaria sin respetar el horario indicado.</p>";
+    break;
+case "49n":
+    echo "<h2>Art. 49 inc. n</h2>
+          <p>No estacionar sobre rampas de accesibilidad para personas con movilidad reducida.</p>";
+    break;
+case "49o":
+    echo "<h2>Art. 49 inc. o</h2>
+          <p>No estacionar en zonas de carga y descarga durante los horarios señalizados.</p>";
+    break;
+case "49p":
+    echo "<h2>Art. 49 inc. p</h2>
+          <p>No estacionar en zonas reservadas para taxis o transporte público, salvo autorización.</p>";
+    break;
+case "49q":
+    echo "<h2>Art. 49 inc. q</h2>
+          <p>No estacionar en lugares destinados a vehículos eléctricos, puntos de recarga o bicicletas públicas.</p>";
+    break;
+case "49r":
+    echo "<h2>Art. 49 inc. r</h2>
+          <p>No estacionar en calles angostas que impidan el paso de vehículos de emergencia.</p>";
+    break;
+case "49s":
+    echo "<h2>Art. 49 inc. s</h2>
+          <p>No estacionar en áreas peatonales o plazas públicas señalizadas como no transitables para vehículos.</p>";
+    break;
+case "49t":
+    echo "<h2>Art. 49 inc. t</h2>
+          <p>No estacionar en zonas de obras, construcción o mantenimiento vial, afectando la seguridad.</p>";
+    break;
 
 
                     // el dafult no se toca
