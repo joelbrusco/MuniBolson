@@ -1,4 +1,6 @@
-/* estilos globales */
+/* =========================
+   ESTILOS GLOBALES
+   ========================= */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,176 +8,170 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; /* 👉 podés cambiar la tipografía global */
 }
 
-/* navbar (barra navegacion) */
+/* =========================
+   NAVBAR (BARRA DE NAVEGACIÓN)
+   ========================= */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #06c25b;
-  padding: 10px 20px;
+  background-color: #06c25b; /* 👉 CAMBIAR COLOR DEL FONDO DE LA NAVBAR */
+  padding: 10px 20px;        /* 👉 CAMBIAR ESPACIADO INTERNO */
 }
 
 .navbar .logo {
-  color: #fff;
-  font-size: 20px;
+  color: #fff;         /* 👉 CAMBIAR COLOR DEL LOGO/TEXTO */
+  font-size: 20px;     /* 👉 CAMBIAR TAMAÑO DEL LOGO/TEXTO */
   font-weight: bold;
 }
 
 .navbar .menu {
   display: flex;
-  gap: 20px;
+  gap: 20px;           /* 👉 DISTANCIA ENTRE LINKS */
 }
 
 .navbar .menu a {
-  color: white;
+  color: white;             /* 👉 CAMBIAR COLOR DE LOS LINKS */
   text-decoration: none;
-  padding: 8px;
+  padding: 8px;             /* 👉 ESPACIADO DE LOS LINKS */
   transition: background 0.3s;
 }
 
 .navbar .menu a:hover {
-  background-color: #555;
-  border-radius: 4px;
+  background-color: #555;   /* 👉 COLOR AL PASAR EL MOUSE */
+  border-radius: 4px;       /* 👉 BORDES REDONDEADOS AL HOVER */
 }
 
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.menu-toggle span {
-  height: 3px;
-  width: 25px;
-  background-color: white;
-  margin: 4px 0;
-  transition: 0.4s;
-}
-
-/* index.php */
+/* =========================
+   INDEX (PÁGINA DE INICIO)
+   ========================= */
 .inicio {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; /* 👉 CAMBIAR A 1fr PARA UNA SOLA COLUMNA */
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 3%;                  /* 👉 ESPACIADO INTERNO */
 }
 
 .inicio img {
-  border-radius: 5%;
+  border-radius: 5%;  /* 👉 CAMBIAR O ELIMINAR PARA BORDES RECTOS */
   height: auto;
-  width: 80%;
+  width: 80%;         /* 👉 CAMBIAR TAMAÑO DE IMAGEN */
   justify-self: center;
 }
 
 .titulo {
   text-align: center;
   padding: 3%;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Verdana, Geneva, sans-serif; /* 👉 CAMBIAR FUENTE SOLO DEL TÍTULO */
   font-weight: 400;
-  font-size: 10vh;
+  font-size: 10vh;   /* 👉 CAMBIAR TAMAÑO DEL TÍTULO PRINCIPAL */
 }
 
 .separador {
-  width: 30%;
+  width: 30%;                  /* 👉 ANCHO DE LA LÍNEA */
   margin: auto;
-  border-top: 3px solid #06c25b;
-  /* puntos verdes */
+  border-top: 3px solid #06c25b; /* 👉 COLOR DE LA LÍNEA */
 }
 
-/* acerca.php */
+/* =========================
+   ACERCA (PÁGINA ACERCA DE)
+   ========================= */
 .acerca {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 👉 NÚMERO DE COLUMNAS */
   align-items: center;
   justify-content: center;
   padding: 5%;
 }
 
 .acerca h1 {
-  grid-column: 2/5;
+  grid-column: 2/5; /* 👉 UBICACIÓN DEL TÍTULO */
 }
 
 .acerca img {
   grid-column: 2/5;
-  border-radius: 5%;
+  border-radius: 5%; /* 👉 BORDES DE LA IMAGEN */
   height: auto;
-  width: 50%;
+  width: 50%;        /* 👉 TAMAÑO DE LA IMAGEN */
   justify-self: center;
 }
 
 .acerca p {
   grid-column: 2/5;
   padding: 4%;
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
-  font-size: 3vh;
+  font-family: Arial, Helvetica, sans-serif; /* 👉 FUENTE DEL TEXTO */
+  border: 1px solid black;                   /* 👉 BORDE DEL PÁRRAFO */
+  font-size: 3vh;                            /* 👉 TAMAÑO DEL TEXTO */
 }
 
-/* contacto.php */
+/* =========================
+   CONTACTO (PÁGINA CONTACTO)
+   ========================= */
 .contacto {
   display: grid;
   padding: 5%;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* 👉 CENTRADO HORIZONTAL */
+  align-items: center;     /* 👉 CENTRADO VERTICAL */
 }
 
 .contacto h1 {
   text-align: center;
-  padding-bottom: 3%;
+  padding-bottom: 3%; /* 👉 ESPACIADO BAJO EL TÍTULO */
 }
 
 .contacto-lista {
-  padding: 3%;
+  padding: 3%;       /* 👉 ESPACIADO DE LA LISTA DE CONTACTO */
 }
 
-/* footer.php */
+/* =========================
+   FOOTER (PIE DE PÁGINA)
+   ========================= */
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; /* 👉 NÚMERO DE COLUMNAS EN DESKTOP */
   text-align: center;
   gap: 4%;
-  background-color: #06c25b;
+  background-color: #06c25b; /* 👉 COLOR DEL FOOTER */
   padding: 3%;
 }
 
 .footer p {
-  color: white;
+  color: white; /* 👉 COLOR DEL TEXTO DEL FOOTER */
 }
 
 .footer1 {
   display: grid;
 }
 
-/* ACA EMPIEZAN ESTILOS DE CELULAR */
+/* =========================
+   RESPONSIVE (CELULARES/TABLETS)
+   ========================= */
 @media (max-width: 768px) {
+  /* Navbar en columna en pantallas chicas */
+  .navbar {
+    flex-direction: column; /* 👉 CAMBIA NAVBAR A VERTICAL EN CELULAR */
+    align-items: flex-start;
+  }
 
-  /* navbar (barra navegacion) */
   .navbar .menu {
-    display: none;
-    flex-direction: column;
+    flex-direction: column; /* 👉 LINKS UNO ABAJO DEL OTRO */
     width: 100%;
-    background-color: #333;
-    position: absolute;
-    top: 60px;
-    left: 0;
+    background-color: #333; /* 👉 COLOR DE FONDO DEL MENÚ EN CELULAR */
+    margin-top: 10px;
   }
 
-  .navbar .menu.active {
-    display: flex;
+  .navbar .menu a {
+    padding: 10px;
+    display: block;
   }
 
-  .menu-toggle {
-    display: flex;
-  }
-
-  /* footer */
+  /* Footer en una sola columna */
   .footer {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* 👉 FOOTER EN UNA COLUMNA EN CELULAR */
     padding-bottom: 10%;
   }
-
 }
