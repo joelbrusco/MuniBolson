@@ -1,5 +1,7 @@
 <nav class="navbar">
-    <div class="logo">SIGTM–Bolsón</div>
+    <a href="index.php"> 
+        <div class="logo">SIGTM–Bolsón</div>
+    </a>
     <div class="menu-toggle" id="menu-toggle">
         <span></span>
         <span></span>
@@ -10,6 +12,8 @@
         <a href="infracciones.php">Infracciones</a>
         <a href="acerca.php">Acerca</a>
         <a href="contacto.php">Contacto</a>
+    
+
     </div>
 </nav>
 
