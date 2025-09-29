@@ -336,7 +336,7 @@ case "48y":
             ?>
         </div>
     </div>
-<img src="multimedia/d9b849a8-fbc4-437c-8961-858d671f824a.png"
+<img src="multimedia/d9b849a8-fbc4-437c-8961-858d671f824a.png">
 
 </body>
 
