@@ -33,6 +33,10 @@ body {
   gap: 20px; /* 👉 DISTANCIA ENTRE LINKS */
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar .menu a {
   color: white; /* 👉 CAMBIAR COLOR DE LOS LINKS */
   text-decoration: none;
@@ -57,7 +61,7 @@ body {
 }
 
 .inicio img {
-  border-radius: 5%; /* 👉 CAMBIAR O ELIMINAR PARA BORDES RECTOS */
+  border-radius: 0%; /* 👉 CAMBIAR O ELIMINAR PARA BORDES RECTOS */
   height: auto;
   width: 80%; /* 👉 CAMBIAR TAMAÑO DE IMAGEN */
   justify-self: center;
