@@ -19,30 +19,30 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #06c25b; /* 👉 CAMBIAR COLOR DEL FONDO DE LA NAVBAR */
-  padding: 10px 20px;        /* 👉 CAMBIAR ESPACIADO INTERNO */
+  padding: 10px 20px; /* 👉 CAMBIAR ESPACIADO INTERNO */
 }
 
 .navbar .logo {
-  color: #fff;         /* 👉 CAMBIAR COLOR DEL LOGO/TEXTO */
-  font-size: 20px;     /* 👉 CAMBIAR TAMAÑO DEL LOGO/TEXTO */
+  color: #fff; /* 👉 CAMBIAR COLOR DEL LOGO/TEXTO */
+  font-size: 20px; /* 👉 CAMBIAR TAMAÑO DEL LOGO/TEXTO */
   font-weight: bold;
 }
 
 .navbar .menu {
   display: flex;
-  gap: 20px;           /* 👉 DISTANCIA ENTRE LINKS */
+  gap: 20px; /* 👉 DISTANCIA ENTRE LINKS */
 }
 
 .navbar .menu a {
-  color: white;             /* 👉 CAMBIAR COLOR DE LOS LINKS */
+  color: white; /* 👉 CAMBIAR COLOR DE LOS LINKS */
   text-decoration: none;
-  padding: 8px;             /* 👉 ESPACIADO DE LOS LINKS */
+  padding: 8px; /* 👉 ESPACIADO DE LOS LINKS */
   transition: background 0.3s;
 }
 
 .navbar .menu a:hover {
-  background-color: #555;   /* 👉 COLOR AL PASAR EL MOUSE */
-  border-radius: 4px;       /* 👉 BORDES REDONDEADOS AL HOVER */
+  background-color: #555; /* 👉 COLOR AL PASAR EL MOUSE */
+  border-radius: 4px; /* 👉 BORDES REDONDEADOS AL HOVER */
 }
 
 /* =========================
@@ -53,13 +53,13 @@ body {
   grid-template-columns: 1fr 1fr; /* 👉 CAMBIAR A 1fr PARA UNA SOLA COLUMNA */
   justify-content: center;
   align-items: center;
-  padding: 3%;                  /* 👉 ESPACIADO INTERNO */
+  padding: 3%; /* 👉 ESPACIADO INTERNO */
 }
 
 .inicio img {
-  border-radius: 5%;  /* 👉 CAMBIAR O ELIMINAR PARA BORDES RECTOS */
+  border-radius: 5%; /* 👉 CAMBIAR O ELIMINAR PARA BORDES RECTOS */
   height: auto;
-  width: 80%;         /* 👉 CAMBIAR TAMAÑO DE IMAGEN */
+  width: 80%; /* 👉 CAMBIAR TAMAÑO DE IMAGEN */
   justify-self: center;
 }
 
@@ -68,11 +68,11 @@ body {
   padding: 3%;
   font-family: Verdana, Geneva, sans-serif; /* 👉 CAMBIAR FUENTE SOLO DEL TÍTULO */
   font-weight: 400;
-  font-size: 10vh;   /* 👉 CAMBIAR TAMAÑO DEL TÍTULO PRINCIPAL */
+  font-size: 10vh; /* 👉 CAMBIAR TAMAÑO DEL TÍTULO PRINCIPAL */
 }
 
 .separador {
-  width: 30%;                  /* 👉 ANCHO DE LA LÍNEA */
+  width: 30%; /* 👉 ANCHO DE LA LÍNEA */
   margin: auto;
   border-top: 3px solid #06c25b; /* 👉 COLOR DE LA LÍNEA */
 }
@@ -96,7 +96,7 @@ body {
   grid-column: 2/5;
   border-radius: 5%; /* 👉 BORDES DE LA IMAGEN */
   height: auto;
-  width: 50%;        /* 👉 TAMAÑO DE LA IMAGEN */
+  width: 50%; /* 👉 TAMAÑO DE LA IMAGEN */
   justify-self: center;
 }
 
@@ -104,8 +104,8 @@ body {
   grid-column: 2/5;
   padding: 4%;
   font-family: Arial, Helvetica, sans-serif; /* 👉 FUENTE DEL TEXTO */
-  border: 1px solid black;                   /* 👉 BORDE DEL PÁRRAFO */
-  font-size: 3vh;                            /* 👉 TAMAÑO DEL TEXTO */
+  border: 1px solid black; /* 👉 BORDE DEL PÁRRAFO */
+  font-size: 3vh; /* 👉 TAMAÑO DEL TEXTO */
 }
 
 /* =========================
@@ -115,7 +115,7 @@ body {
   display: grid;
   padding: 5%;
   justify-content: center; /* 👉 CENTRADO HORIZONTAL */
-  align-items: center;     /* 👉 CENTRADO VERTICAL */
+  align-items: center; /* 👉 CENTRADO VERTICAL */
 }
 
 .contacto h1 {
@@ -124,7 +124,7 @@ body {
 }
 
 .contacto-lista {
-  padding: 3%;       /* 👉 ESPACIADO DE LA LISTA DE CONTACTO */
+  padding: 3%; /* 👉 ESPACIADO DE LA LISTA DE CONTACTO */
 }
 
 /* =========================
@@ -145,6 +145,11 @@ body {
 
 .footer1 {
   display: grid;
+}
+
+.infracciones {
+  display: grid;
+  justify-content: center;
 }
 
 /* =========================

@@ -10,3 +10,4 @@ if ($conexion->connect_error) {
     echo "error de conexion";
 }
 echo "conectado";
+ include 'footer.php' ?>

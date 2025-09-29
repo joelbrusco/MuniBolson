@@ -31,6 +31,7 @@
 
         8. Ningún ómnibus, microbús, casa rodante, camión, acoplado, semiacoplado o maquinaria especial,
         excepto en los lugares que habilite a tal fin mediante la señalización pertinente. </p>
+        <?php include 'footer.php' ?>
 </body>
 
 </html>
