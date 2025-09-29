@@ -15,7 +15,7 @@
   <h1 class="titulo"> Sistema de Gestión de Tránsito Municipal El Bolsón</h1>
   <div class="separador"></div>
   <div class="inicio">
-    <img src="multimedia/municipalidad-de-el-bolson-1024x575.webp">
+    <img src="multimedia/a5c4e715-4d0a-4a0e-9915-e04fa025928c.png">
     <p>Esta herramienta permite a los inspectores identificar rápidamente ordenanzas e infracciones de tránsito, facilitando la consulta de artículos y
       agilizando su trabajo en campo.</p>
   </div>

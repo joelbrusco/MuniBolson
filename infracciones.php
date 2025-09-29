@@ -76,199 +76,254 @@
             if (isset($_GET['articulo'])) {
                 $articulo = $_GET['articulo'];
                 switch ($articulo) {
-                    case "48a":
-                        echo "<h2>Art. 48 inc. a</h2>
-                  <p>Queda prohibido circular en contramano, salvo autorización de la autoridad competente.</p>";
-                        break;
-                    case "48b":
-                        echo "<h2>Art. 48 inc. b</h2>
-                  <p>Conducir un vehículo sin la licencia habilitante correspondiente.</p>";
-                        break;
-                    case "48c":
-                        echo "<h2>Art. 48 inc. c</h2>
-                  <p>Circular con exceso o defecto de velocidad respecto a la establecida.</p>";
-                        break;
-                    case "48d":
-                        echo "<h2>Art. 48 inc. d</h2>
-                  <p>Conducir con alcohol en sangre, estupefacientes o medicamentos que alteren la conducción.</p>";
-                        break;
-                    case "48e":
-                        echo "<h2>Art. 48 inc. e</h2>
-                  <p>Conducir con exceso de ocupantes en relación a la capacidad del vehículo.</p>";
-                        break;
-                    case "48f":
-                        echo "<h2>Art. 48 inc. f</h2>
-                  <p>Transportar personas o carga en lugares no habilitados o de manera indebida.</p>";
-                        break;
-                    case "48g":
-                        echo "<h2>Art. 48 inc. g</h2>
-                  <p>Circular sin luces reglamentarias, sin chapa patente, o con ellas ilegibles/adulteradas.</p>";
-                        break;
-                    case "48h":
-                        echo "<h2>Art. 48 inc. h</h2>
-                  <p>Usar indebidamente bocinas, sirenas u otros dispositivos de advertencia sonora.</p>";
-                        break;
-                    case "48i":
-                        echo "<h2>Art. 48 inc. i</h2>
-                  <p>Transportar carga mal acondicionada, peligrosa o sin autorización.</p>";
-                        break;
-                    case "48j":
-                        echo "<h2>Art. 48 inc. j</h2>
-                  <p>Circular con vehículos que emitan contaminantes (humo, gases, ruidos) en niveles superiores a los permitidos.</p>";
-                        break;
-                    case "48k":
-                        echo "<h2>Art. 48 inc. k</h2>
-                  <p>Conducir utilizando celular u otros dispositivos que afecten la atención.</p>";
-                        break;
-                    case "48l":
-                        echo "<h2>Art. 48 inc. l</h2>
-                  <p>No usar cinturón de seguridad, casco u otros elementos de protección obligatorios.</p>";
-                        break;
-                    case "48m":
-                        echo "<h2>Art. 48 inc. m</h2>
-                  <p>Transportar animales de forma que entorpezcan la conducción.</p>";
-                        break;
-                    case "48n":
-                        echo "<h2>Art. 48 inc. n</h2>
-                  <p>Transportar personas en moto sin casco reglamentario.</p>";
-                        break;
-                    case "48o":
-                        echo "<h2>Art. 48 inc. o</h2>
-                  <p>Circular con escape libre, roto o con silenciador ineficaz.</p>";
-                        break;
-                    case "48p":
-                        echo "<h2>Art. 48 inc. p</h2>
-                  <p>Conducir sin seguro obligatorio en vigencia.</p>";
-                        break;
-                    case "48q":
-                        echo "<h2>Art. 48 inc. q</h2>
-                  <p>Circular sin portar la documentación exigida: licencia, cédula, seguro, VTV, etc.</p>";
-                        break;
-                    case "48r":
-                        echo "<h2>Art. 48 inc. r</h2>
-                  <p>Adelantar en curvas, puentes, túneles, pasos a nivel o lugares prohibidos.</p>";
-                        break;
-                    case "48s":
-                        echo "<h2>Art. 48 inc. s</h2>
-                  <p>Circular marcha atrás en lugares no permitidos.</p>";
-                        break;
-                    case "48t":
-                        echo "<h2>Art. 48 inc. t</h2>
-                  <p>Conducir sin respetar las señales de tránsito, semáforos o indicaciones de inspectores.</p>";
-                        break;
-                    case "48u":
-                        echo "<h2>Art. 48 inc. u</h2>
-                  <p>No respetar la prioridad de paso a peatones, ciclistas o transporte público.</p>";
-                        break;
-                    case "48v":
-                        echo "<h2>Art. 48 inc. v</h2>
-                  <p>Circular con luces apagadas en condiciones de poca visibilidad o nocturnidad.</p>";
-                        break;
-                    case "48w":
-                        echo "<h2>Art. 48 inc. w</h2>
-                  <p>Realizar maniobras peligrosas como zigzagueo, giros bruscos o arranques repentinos.</p>";
-                        break;
-                    case "48x":
-                        echo "<h2>Art. 48 inc. x</h2>
-                  <p>No mantener la distancia de seguridad con otros vehículos, poniendo en riesgo colisiones.</p>";
-                        break;
-                    case "48y":
-                        echo "<h2>Art. 48 inc. y</h2>
-                  <p>Conducir vehículos con frenos defectuosos, neumáticos en mal estado o falta de mantenimiento esencial.</p>";
-                        break;
+                 case "48a":
+    echo "<h2>Art. 48 inc. a</h2>
+    <p>Está prohibido manejar en contramano. Solo se puede hacer si un agente de tránsito o la autoridad lo autoriza de forma especial.</p>";
+    break;
+
+case "48b":
+    echo "<h2>Art. 48 inc. b</h2>
+    <p>No se puede conducir sin tener la licencia de conducir válida para ese tipo de vehículo. Ejemplo: no podés manejar un camión con una licencia de auto común.</p>";
+    break;
+
+case "48c":
+    echo "<h2>Art. 48 inc. c</h2>
+    <p>No está permitido ir más rápido o más lento que la velocidad máxima o mínima que indiquen las normas o los carteles. Ir demasiado lento también puede ser peligroso.</p>";
+    break;
+
+case "48d":
+    echo "<h2>Art. 48 inc. d</h2>
+    <p>No se puede manejar si tomaste alcohol, consumiste drogas o algún medicamento que te haga perder reflejos o atención. Aun una pequeña dosis puede afectar tu manejo.</p>";
+    break;
+
+case "48e":
+    echo "<h2>Art. 48 inc. e</h2>
+    <p>No podés llevar más personas de las que el vehículo permite. Ejemplo: un auto de 5 plazas no puede llevar 6 ocupantes.</p>";
+    break;
+
+case "48f":
+    echo "<h2>Art. 48 inc. f</h2>
+    <p>No se puede llevar personas o cosas en lugares inseguros, como en el baúl, en el techo o en partes del vehículo que no están pensadas para eso.</p>";
+    break;
+
+case "48g":
+    echo "<h2>Art. 48 inc. g</h2>
+    <p>No está permitido circular sin luces reglamentarias, sin patente, o con la patente tapada, rota o alterada para que no se lea.</p>";
+    break;
+
+case "48h":
+    echo "<h2>Art. 48 inc. h</h2>
+    <p>No se puede usar la bocina de forma molesta, ni sirenas u otros sonidos que solo pueden usar ambulancias, bomberos o policías.</p>";
+    break;
+
+case "48i":
+    echo "<h2>Art. 48 inc. i</h2>
+    <p>No se puede transportar cargas peligrosas o mal aseguradas que puedan caerse o poner en riesgo a otros, salvo que tengas los permisos necesarios.</p>";
+    break;
+
+case "48j":
+    echo "<h2>Art. 48 inc. j</h2>
+    <p>No se puede circular con autos o motos que larguen demasiado humo, gases, líquidos o ruidos porque contaminan o molestan.</p>";
+    break;
+
+case "48k":
+    echo "<h2>Art. 48 inc. k</h2>
+    <p>No está permitido usar el celular, auriculares u otros aparatos que te distraigan mientras manejás.</p>";
+    break;
+
+case "48l":
+    echo "<h2>Art. 48 inc. l</h2>
+    <p>Es obligatorio usar cinturón de seguridad, casco en motos y cualquier otro elemento de seguridad según el vehículo.</p>";
+    break;
+
+case "48m":
+    echo "<h2>Art. 48 inc. m</h2>
+    <p>No podés llevar animales sueltos dentro del auto que puedan distraerte o entorpecer tu manejo. Deben ir sujetos o en jaulas.</p>";
+    break;
+
+case "48n":
+    echo "<h2>Art. 48 inc. n</h2>
+    <p>Está prohibido llevar pasajeros en moto sin casco. Todos los que viajen tienen que usarlo.</p>";
+    break;
+
+case "48o":
+    echo "<h2>Art. 48 inc. o</h2>
+    <p>No se puede circular con el escape roto, libre o que haga demasiado ruido porque molesta y contamina.</p>";
+    break;
+
+case "48p":
+    echo "<h2>Art. 48 inc. p</h2>
+    <p>Es obligatorio tener seguro vigente. Si no lo tenés al día, no podés circular.</p>";
+    break;
+
+case "48q":
+    echo "<h2>Art. 48 inc. q</h2>
+    <p>Siempre hay que llevar encima los papeles del auto y del conductor: licencia, cédula, seguro, VTV, etc.</p>";
+    break;
+
+case "48r":
+    echo "<h2>Art. 48 inc. r</h2>
+    <p>No podés adelantar en curvas, puentes, túneles, pasos a nivel o cualquier lugar donde no veas bien o esté prohibido.</p>";
+    break;
+
+case "48s":
+    echo "<h2>Art. 48 inc. s</h2>
+    <p>No se puede ir marcha atrás en calles o rutas salvo que sea necesario y en lugares permitidos (ejemplo: estacionar).</p>";
+    break;
+
+case "48t":
+    echo "<h2>Art. 48 inc. t</h2>
+    <p>Siempre hay que respetar semáforos, señales de tránsito y las indicaciones de los inspectores o policías de tránsito.</p>";
+    break;
+
+case "48u":
+    echo "<h2>Art. 48 inc. u</h2>
+    <p>Hay que darle prioridad de paso a peatones en la senda peatonal, a ciclistas y al transporte público en determinadas situaciones.</p>";
+    break;
+
+case "48v":
+    echo "<h2>Art. 48 inc. v</h2>
+    <p>No podés circular sin luces cuando hay poca visibilidad (de noche, con niebla o lluvia fuerte). Encenderlas es obligatorio.</p>";
+    break;
+
+case "48w":
+    echo "<h2>Art. 48 inc. w</h2>
+    <p>No está permitido hacer maniobras peligrosas como zigzaguear, girar sin aviso o arrancar de golpe.</p>";
+    break;
+
+case "48x":
+    echo "<h2>Art. 48 inc. x</h2>
+    <p>Siempre hay que mantener una distancia prudente con el vehículo de adelante. Si no, podés chocar en caso de frenada repentina.</p>";
+    break;
+
+case "48y":
+    echo "<h2>Art. 48 inc. y</h2>
+    <p>No podés manejar un vehículo con frenos rotos, neumáticos gastados o en mal estado. El auto debe estar en condiciones seguras.</p>";
+    break;
+
 
                     // -------------------------
                     // ARTÍCULO 49
                     // -------------------------
-                    case "49a":
-                        echo "<h2>Art. 49 inc. a</h2>
-                  <p>No se debe estacionar donde afecte la seguridad, visibilidad o fluidez del tránsito.</p>";
-                        break;
-                    case "49b":
-                        echo "<h2>Art. 49 inc. b</h2>
-                  <p>Prohibido estacionar en:</p>
-                  <ol>
-                    <li>Esquinas y ochavas.</li>
-                    <li>Sendas peatonales o ciclovías.</li>
-                    <li>Aceras, rieles o calzadas.</li>
-                    <li>Diez metros antes o después de paradas de transporte.</li>
-                  </ol>";
-                        break;
-                    case "49c":
-                        echo "<h2>Art. 49 inc. c</h2>
-                  <p>Prohibido estacionar frente a hospitales, escuelas y servicios públicos, hasta 10 metros a cada lado de la entrada.</p>";
-                        break;
-                    case "49d":
-                        echo "<h2>Art. 49 inc. d</h2>
-                  <p>No estacionar frente a cines, teatros y lugares similares durante su funcionamiento.</p>";
-                        break;
-                    case "49e":
-                        echo "<h2>Art. 49 inc. e</h2>
-                  <p>No estacionar en accesos de garages, cocheras o estacionamientos señalizados.</p>";
-                        break;
-                    case "49f":
-                        echo "<h2>Art. 49 inc. f</h2>
-                  <p>No se admite estacionar un vehículo por más de 5 días consecutivos en la vía pública o el plazo que fije la autoridad.</p>";
-                        break;
-                    case "49g":
-                        echo "<h2>Art. 49 inc. g</h2>
-                  <p>No estacionar ómnibus, camiones, acoplados, semirremolques o maquinaria especial fuera de los lugares habilitados.</p>";
-                        break;
-                    case "49h":
-                        echo "<h2>Art. 49 inc. h</h2>
-                  <p>No detenerse ni estacionar en lugares peligrosos.</p>";
-                        break;
-                    // -------------------------
-                    // ARTÍCULO 49 - PROHIBICIONES DE ESTACIONAMIENTO Y DETENCIÓN
-                    // -------------------------
-                    case "49i":
-                        echo "<h2>Art. 49 inc. i</h2>
-          <p>No estacionar frente a hidrantes, bocas de incendio o accesos de bomberos.</p>";
-                        break;
-                    case "49j":
-                        echo "<h2>Art. 49 inc. j</h2>
-          <p>No estacionar sobre pasos peatonales, ciclovías o carriles exclusivos de transporte público.</p>";
-                        break;
-                    case "49k":
-                        echo "<h2>Art. 49 inc. k</h2>
-          <p>No estacionar en doble fila, bloqueando el tránsito de otros vehículos.</p>";
-                        break;
-                    case "49l":
-                        echo "<h2>Art. 49 inc. l</h2>
-          <p>No estacionar en paradas de transporte público, excepto cuando esté permitido.</p>";
-                        break;
-                    case "49m":
-                        echo "<h2>Art. 49 inc. m</h2>
-          <p>No estacionar en lugares señalizados con restricción horaria sin respetar el horario indicado.</p>";
-                        break;
-                    case "49n":
-                        echo "<h2>Art. 49 inc. n</h2>
-          <p>No estacionar sobre rampas de accesibilidad para personas con movilidad reducida.</p>";
-                        break;
-                    case "49o":
-                        echo "<h2>Art. 49 inc. o</h2>
-          <p>No estacionar en zonas de carga y descarga durante los horarios señalizados.</p>";
-                        break;
-                    case "49p":
-                        echo "<h2>Art. 49 inc. p</h2>
-          <p>No estacionar en zonas reservadas para taxis o transporte público, salvo autorización.</p>";
-                        break;
-                    case "49q":
-                        echo "<h2>Art. 49 inc. q</h2>
-          <p>No estacionar en lugares destinados a vehículos eléctricos, puntos de recarga o bicicletas públicas.</p>";
-                        break;
-                    case "49r":
-                        echo "<h2>Art. 49 inc. r</h2>
-          <p>No estacionar en calles angostas que impidan el paso de vehículos de emergencia.</p>";
-                        break;
-                    case "49s":
-                        echo "<h2>Art. 49 inc. s</h2>
-          <p>No estacionar en áreas peatonales o plazas públicas señalizadas como no transitables para vehículos.</p>";
-                        break;
-                    case "49t":
-                        echo "<h2>Art. 49 inc. t</h2>
-          <p>No estacionar en zonas de obras, construcción o mantenimiento vial, afectando la seguridad.</p>";
-                        break;
+                 
+        case "49a":
+            echo "<h2>Art. 49 inc. a</h2>
+            <p>No se debe estacionar donde pueda afectar la seguridad, la visibilidad o interrumpir el tránsito. 
+            Ejemplo: dejar el auto en una curva o en un lugar donde tapa la visión de los demás conductores.</p>";
+            break;
+
+        case "49b":
+            echo "<h2>Art. 49 inc. b</h2>
+            <p>Está prohibido estacionar en:</p>
+            <ul>
+              <li><b>Esquinas y ochavas:</b> porque impide ver a los que cruzan.</li>
+              <li><b>Sendas peatonales o ciclovías:</b> porque bloquea el paso de peatones y ciclistas.</li>
+              <li><b>Sobre aceras, rieles o la calzada:</b> porque no son lugares destinados a vehículos.</li>
+              <li><b>A 10 metros antes o después de una parada de colectivos:</b> para no molestar a los que suben y bajan.</li>
+            </ul>";
+            break;
+
+        case "49c":
+            echo "<h2>Art. 49 inc. c</h2>
+            <p>No se puede estacionar frente a hospitales, escuelas u otros servicios públicos, en un radio de 10 metros de las entradas. 
+            Esto es para dejar libre el acceso en emergencias.</p>";
+            break;
+
+        case "49d":
+            echo "<h2>Art. 49 inc. d</h2>
+            <p>Está prohibido estacionar frente a cines, teatros o lugares similares mientras estén funcionando, 
+            porque genera congestión y bloquea salidas de emergencia.</p>";
+            break;
+
+        case "49e":
+            echo "<h2>Art. 49 inc. e</h2>
+            <p>No se puede estacionar en la entrada o salida de garages, cocheras o estacionamientos. 
+            Si bloqueás, impedís que los dueños puedan entrar o salir.</p>";
+            break;
+
+        case "49f":
+            echo "<h2>Art. 49 inc. f</h2>
+            <p>No se puede dejar un auto estacionado en la vía pública más de 5 días seguidos (o el plazo que defina la autoridad). 
+            Los autos abandonados ocupan lugar y se convierten en un problema de seguridad.</p>";
+            break;
+
+        case "49g":
+            echo "<h2>Art. 49 inc. g</h2>
+            <p>No se puede estacionar colectivos, camiones, acoplados, semirremolques o maquinaria especial en la calle, salvo en lugares habilitados. 
+            Estos vehículos grandes ocupan espacio y dificultan la visibilidad.</p>";
+            break;
+
+        case "49h":
+            echo "<h2>Art. 49 inc. h</h2>
+            <p>No se puede detenerse o estacionar en lugares peligrosos, por ejemplo, en una curva cerrada, un puente o una pendiente pronunciada.</p>";
+            break;
+
+        case "49i":
+            echo "<h2>Art. 49 inc. i</h2>
+            <p>No estacionar frente a hidrantes o bocas de incendio, ni en los accesos de bomberos. 
+            Si hay un incendio, ese espacio debe estar libre para las emergencias.</p>";
+            break;
+
+        case "49j":
+            echo "<h2>Art. 49 inc. j</h2>
+            <p>No estacionar sobre pasos peatonales, ciclovías ni en carriles exclusivos de colectivos o taxis. 
+            Son espacios reservados para quienes los usan.</p>";
+            break;
+
+        case "49k":
+            echo "<h2>Art. 49 inc. k</h2>
+            <p>Está prohibido estacionar en doble fila, porque bloquea a los autos que ya están estacionados y entorpece el tránsito.</p>";
+            break;
+
+        case "49l":
+            echo "<h2>Art. 49 inc. l</h2>
+            <p>No se puede estacionar en paradas de colectivos, salvo que esté expresamente permitido y fuera del horario de funcionamiento.</p>";
+            break;
+
+        case "49m":
+            echo "<h2>Art. 49 inc. m</h2>
+            <p>No estacionar en lugares donde hay carteles de restricción horaria sin respetar lo que dice el cartel. 
+            Ejemplo: estacionar en zona de carga en horario prohibido.</p>";
+            break;
+
+        case "49n":
+            echo "<h2>Art. 49 inc. n</h2>
+            <p>No estacionar sobre rampas para personas con movilidad reducida. 
+            Si bloqueás una rampa, impedís el acceso a sillas de ruedas o cochecitos de bebé.</p>";
+            break;
+
+        case "49o":
+            echo "<h2>Art. 49 inc. o</h2>
+            <p>No estacionar en zonas de carga y descarga durante el horario reservado para esa actividad. 
+            Esos espacios son necesarios para que los comercios reciban mercadería.</p>";
+            break;
+
+        case "49p":
+            echo "<h2>Art. 49 inc. p</h2>
+            <p>No estacionar en lugares reservados para taxis, remises o transporte público, salvo que tengas autorización especial.</p>";
+            break;
+
+        case "49q":
+            echo "<h2>Art. 49 inc. q</h2>
+            <p>No estacionar en zonas destinadas a vehículos eléctricos, puntos de recarga o bicicletas públicas. 
+            Esos espacios son exclusivos para esos usos.</p>";
+            break;
+
+        case "49r":
+            echo "<h2>Art. 49 inc. r</h2>
+            <p>No estacionar en calles angostas donde se dificulte el paso de ambulancias, bomberos u otros vehículos de emergencia.</p>";
+            break;
+
+        case "49s":
+            echo "<h2>Art. 49 inc. s</h2>
+            <p>No estacionar en áreas peatonales o plazas públicas donde está prohibido circular con vehículos. 
+            Estos lugares son solo para peatones.</p>";
+            break;
+
+        case "49t":
+            echo "<h2>Art. 49 inc. t</h2>
+            <p>No estacionar en zonas donde hay obras, construcción o mantenimiento vial, porque obstruye el trabajo y la seguridad de los operarios.</p>";
+            
 
 
                     // el dafult no se toca
@@ -281,7 +336,7 @@
             ?>
         </div>
     </div>
-
+<img src="multimedia/d9b849a8-fbc4-437c-8961-858d671f824a.png"
 
 </body>
 
