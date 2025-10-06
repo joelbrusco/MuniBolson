@@ -23,7 +23,7 @@
                 <p>Dirección: Gral. Roca 689, El Bolsón, Río Negro</p>
             </li>
             <li>
-                <p>Correo: consultas@elbolson.gov.ar.</p>
+                <p>Correo: joeljesusbrusco@gmail.com</p>
             </li>
         </ul>
         <!-- mapa de google -->

@@ -54,7 +54,7 @@ body {
    ========================= */
 .inicio {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 👉 CAMBIAR A 1fr PARA UNA SOLA COLUMNA */
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* 👉 CAMBIAR A 1fr PARA UNA SOLA COLUMNA */
   justify-content: center;
   align-items: center;
   padding: 3%; /* 👉 ESPACIADO INTERNO */
@@ -178,9 +178,36 @@ body {
     display: block;
   }
 
+  .formulario {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5%;
+  }
+
+  .formulario select {
+    width: 100%;
+  }
+
+  .formulario img {
+    width: 100%;
+    height: auto;
+  }
   /* Footer en una sola columna */
   .footer {
     grid-template-columns: 1fr; /* 👉 FOOTER EN UNA COLUMNA EN CELULAR */
     padding-bottom: 10%;
   }
+  
+  .inicio {
+    grid-template-columns: 1fr;
+  }
+  .contacto {
+    grid-template-columns: 1fr;
+  }
+  .titulo{
+    font-size: 4vh;
+  }
+
+
+
 }
