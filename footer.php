@@ -11,6 +11,6 @@
 
     <div class="footer3">
         <h3>contacto</h3>
-        <p>correo@gmail.com</p>
+        <p>joeljesusbrusco@gmail.com</p>
     </div>
 </div>
