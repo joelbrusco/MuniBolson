@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php
-
-    ?>
-</body>
-</html>
+<?php
+include "conexion.php"
+$nombre = $_POST ["nombre"];
+$edad =$_POST["edad"];
+$email = $_POST["email"];
+$mesajes = $_POST["mensajes"];
+$sql = "INSERT INTO consultas (nombre,edad,email,mensajes) VALUES ("$nombre", "$edad", "$email", "$mesajes")";
+if ($conexion->query($sql)
+?>
