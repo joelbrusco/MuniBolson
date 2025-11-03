@@ -1,9 +1,11 @@
 <?php
-include "conexion.php"
+include "conexion.php";
 $nombre = $_POST ["nombre"];
 $edad =$_POST["edad"];
 $email = $_POST["email"];
 $mesajes = $_POST["mensajes"];
-$sql = "INSERT INTO consultas (nombre,edad,email,mensajes) VALUES ("$nombre", "$edad", "$email", "$mesajes")";
-if ($conexion->query($sql)
+$sql = "INSERT INTO consultas (nombre,edad,email,mensajes) VALUES ($nombre, $edad, $email, $mesajes)";
+if ($conexion->query($sql) ===TRUE) {
+    echo "notas creada";
+ }
 ?>
