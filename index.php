@@ -12,7 +12,7 @@
   <!-- barra navegacion -->
   <?php include 'navbar.php' ?>
 
-  <h1 class="titulo"> Sistema de Gestión de Tránsito Municipal El Bolsón</h1>
+  <h1 class="titulo"> Sistema de Gestión de Tránsito El Bolsón</h1>
   <div class="separador"></div>
   <div class="inicio">
     <!-- 1 culumna -->

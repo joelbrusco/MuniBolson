@@ -1,6 +1,6 @@
 <nav class="navbar">
     <a href="index.php"> 
-        <div class="logo">SIGTM–Bolsón</div>
+        <div class="logo">SIGT–Bolsón</div>
     </a>
     <div class="menu-toggle" id="menu-toggle">
         <span></span>
