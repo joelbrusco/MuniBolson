@@ -156,10 +156,12 @@ body {
   justify-content: center;
 }
 
+
+
 /* =========================
    RESPONSIVE (CELULARES/TABLETS)
    ========================= */
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   /* Navbar en columna en pantallas chicas */
   .navbar {
     flex-direction: column; /* 👉 CAMBIA NAVBAR A VERTICAL EN CELULAR */
@@ -199,14 +201,23 @@ body {
   }
   
   .inicio {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
   }
+
+  .inicio p {
+
+    padding: 15%;
+  }
+
   .contacto {
     grid-template-columns: 1fr;
   }
   .titulo{
     font-size: 4vh;
   }
+ .acerca { grid-template-columns: 5%;
+
+ }
 
 
 
