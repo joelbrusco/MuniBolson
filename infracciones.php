@@ -16,9 +16,11 @@
             <p>Seleccioná un artículo:</p>
 
             <!-- formulario -->
+        <div class = "option">
             <form method="get" action="infracciones.php">
                 <select name="articulo">
                     <option value="">-- Elegí un artículo --</option>
+</div>
 
                     <optgroup label="Artículo 48 - Prohibiciones al circular">
                         <option value="48a" <?php if (($_GET['articulo'] ?? '') == '48a') echo 'selected'; ?>>Art. 48 inc. a - Circular en contramano</option>

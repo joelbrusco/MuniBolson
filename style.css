@@ -130,6 +130,17 @@ body {
 .contacto-lista {
   padding: 3%; /* 👉 ESPACIADO DE LA LISTA DE CONTACTO */
 }
+.comentarios {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.notas {
+    text-align: center;
+}
+
 
 /* =========================
    FOOTER (PIE DE PÁGINA)
@@ -156,7 +167,10 @@ body {
   justify-content: center;
 }
 
-
+.mapa-responsive {
+  width: 600px;
+  height: 450px;
+}
 
 /* =========================
    RESPONSIVE (CELULARES/TABLETS)
@@ -199,26 +213,27 @@ body {
     grid-template-columns: 1fr; /* 👉 FOOTER EN UNA COLUMNA EN CELULAR */
     padding-bottom: 10%;
   }
-  
+
   .inicio {
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
   }
 
   .inicio p {
-
     padding: 15%;
   }
 
   .contacto {
     grid-template-columns: 1fr;
   }
-  .titulo{
+  .titulo {
     font-size: 4vh;
   }
- .acerca { grid-template-columns: 5%;
-
- }
-
-
-
+  .acerca {
+    grid-template-columns: 5%;
+  }
+  .mapa-responsive {
+    width: 100%;
+    height: 250px; /* Ajustalo a tu gusto */
+  }
 }
+
