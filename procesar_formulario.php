@@ -8,7 +8,7 @@ $mesajes = $_POST["mensajes"];
 $sql = "INSERT INTO consultas (nombre,edad,email,mensajes) VALUES ('$nombre', $edad, '$email', '$mesajes')";
 
 if ($conexion->query($sql)) {
-    echo "notas creada";
+   Header("Location:contacto.php");
 } else {
     echo "Error en la conexion";
 }

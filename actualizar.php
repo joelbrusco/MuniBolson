@@ -10,7 +10,7 @@ $email = $_POST['email'];
 $sql = "UPDATE consultas SET nombre = '$nombre', edad=$edad, email ='$email', mensajes='$mensajes' WHERE id = $id";
 
 if ($conexion->query($sql)) {
-    header("Location: contacto.php");
+    header("Location: panel_admin.php");
 } else {
     echo "error en la edcion";
 }

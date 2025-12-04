@@ -12,6 +12,7 @@
         <a href="infracciones.php">Infracciones</a>
         <a href="acerca.php">Acerca</a>
         <a href="contacto.php">Contacto</a>
+        <a href="login.php">Login</a>
     
 
     </div>

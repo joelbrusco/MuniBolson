@@ -44,8 +44,7 @@
     </form>
     </div>
     <?php
-    include "verconsultas.php";
-
+    include "mostrar_consultas.php";
     ?>
 
     <!-- footer / pie de pagina -->
